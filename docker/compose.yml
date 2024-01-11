@@ -27,7 +27,7 @@ services:
       - DATABASE_URL=postgres://documenso:eumnZ3VtD4fQ@ep-small-scene-66455432.eu-central-1.pg.koyeb.app/documenso
       - NEXT_PUBLIC_WEBAPP_URL=http://localhost:3000
       - NEXTAUTH_SECRET=%p(&=6&=)@qi!&462on(lgr4e#k^kul@b-q2dsgh&imxo$45e6
-      - NEXTAUTH_URL=https://documenso-adnan-adnanfirma.koyeb.app/
+      - NEXTAUTH_URL=http://documenso-adnan-adnanfirma.koyeb.app:3000
       - SENDGRID_API_KEY=
       - SMTP_MAIL_HOST=inbucket
       - SMTP_MAIL_PORT=2500
