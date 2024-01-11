@@ -24,7 +24,7 @@ services:
       - inbucket
     environment:
       - DATABASE_URL=postgres://documenso:password@database:5432/documenso
-      - NEXT_PUBLIC_WEBAPP_URL=http://localhost:3000
+      - NEXT_PUBLIC_WEBAPP_URL=https://https://documenso-adnan-adnanfirma.koyeb.app:3000
       - NEXTAUTH_SECRET=my-super-secure-secret
       - NEXTAUTH_URL=http://localhost:3000
       - SENDGRID_API_KEY=
