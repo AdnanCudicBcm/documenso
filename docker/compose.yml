@@ -2,8 +2,9 @@ services:
   database:
     image: postgres:15
     environment:
+      - POSTGRES_HOST=ep-small-scene-66455432.eu-central-1.pg.koyeb.app
       - POSTGRES_USER=documenso
-      - POSTGRES_PASSWORD=password
+      - POSTGRES_PASSWORD=eumnZ3VtD4fQ
       - POSTGRES_DB=documenso
     ports:
       - 5432:5432
@@ -23,9 +24,9 @@ services:
       - database
       - inbucket
     environment:
-      - DATABASE_URL=postgres://documenso:password@database:5432/documenso
+      - DATABASE_URL=postgres://documenso:eumnZ3VtD4fQ@ep-small-scene-66455432.eu-central-1.pg.koyeb.app/documenso
       - NEXT_PUBLIC_WEBAPP_URL=http://localhost:3000
-      - NEXTAUTH_SECRET=my-super-secure-secret
+      - NEXTAUTH_SECRET=%p(&=6&=)@qi!&462on(lgr4e#k^kul@b-q2dsgh&imxo$45e6
       - NEXTAUTH_URL=http://localhost:3000
       - SENDGRID_API_KEY=
       - SMTP_MAIL_HOST=inbucket
